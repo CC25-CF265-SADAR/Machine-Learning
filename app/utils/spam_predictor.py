@@ -1,3 +1,5 @@
+from utils.spam_preprocess_text import preprocess_text
+
 def predictor(texts, model, vectorizer):
     """
     Fungsi wrapper untuk LIME.
